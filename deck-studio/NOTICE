@@ -1,0 +1,9 @@
+Deck studio, a DeepBot app.
+
+Bundled third-party software and fonts:
+
+- PptxGenJS 3.12.0 (ui/vendor/pptxgen.bundle.js, includes JSZip), MIT licence, ui/vendor/LICENSE-pptxgenjs.txt.
+- html-to-image 1.11.11 (ui/vendor/html-to-image.js), MIT licence, ui/vendor/LICENSE-html-to-image.txt.
+- Lucide icons (a selection, in ui/lib/icons.js), ISC licence, ui/vendor/LICENSE-lucide.txt.
+- Fonts in ui/fonts (the same catalogue as the Logo designer), SIL Open Font License 1.1 or Apache 2.0
+  as listed in ui/fonts/fonts.json, licences in ui/fonts/licences/.

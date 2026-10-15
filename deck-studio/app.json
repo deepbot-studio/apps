@@ -1,0 +1,36 @@
+{
+	"format": "deepbot.app/v1",
+	"id": "deck-studio",
+	"name": "Deck studio",
+	"version": "1.2.0",
+	"tier": "free",
+	"vendor": "DeepBot",
+	"summary": "Presentations from a sentence, a text or a file: designed slides, edited in place, presented, exported to PowerPoint, PDF or a web page.",
+	"description": "The Bot writes the deck (story, slides, notes) and Deck studio designs it: 12 themes plus your brand from the Logo designer, 17 layouts, pictures beside or behind any slide, transitions (title, sections, points, text and picture, cards, big numbers, charts, quotes, timelines, steps, comparisons and pricing, tables, people, full pictures, statements, closing), icons, charts, pictures. Click any text to change it, reorder slides, switch layout or theme in one click, present full screen with notes, export an editable PowerPoint, a PDF or a single web page that presents itself or scrolls as a site, and publish it through Sites.",
+	"icon": "ui/icon.svg",
+	"permissions": {
+		"files": ["decks", "brands", "sites"],
+		"ask": true
+	},
+	"skill": "skill/SKILL.md",
+	"cards": [
+		{
+			"name": "showDeck",
+			"title": "Deck",
+			"entry": "ui/card.html",
+			"height": 560,
+			"description": "Show a deck in the chat after writing decks/<slug>/deck.json: the slides with arrows and thumbnails, Edit in Deck studio and Present. Pass `deck` (the slug), optionally `slide` (0-based) and a one-line `note`.",
+			"confirmation": "The deck is on screen.",
+			"parameters": {
+				"type": "object",
+				"properties": {
+					"deck": { "type": "string" },
+					"slide": { "type": "number" },
+					"note": { "type": "string" }
+				},
+				"required": ["deck"]
+			}
+		}
+	],
+	"pages": [{ "id": "decks", "title": "Deck studio", "entry": "ui/decks.html" }]
+}

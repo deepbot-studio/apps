@@ -1,0 +1,260 @@
+{
+	"title": "Brew Lab - investor pitch",
+	"theme": "paper",
+	"size": "16:9",
+	"footer": "Brew Lab · 2026",
+	"slides": [
+		{
+			"layout": "title",
+			"kicker": "Seed round 2026",
+			"title": "Coffee, roasted with ==care==, delivered across Portland",
+			"subtitle": "Small-batch specialty coffee with a subscription people keep",
+			"byline": "Ana Peterson · Founder",
+			"image": "images/cup.jpg",
+			"notes": "Open with the smell of the roastery.",
+			"id": "smv0zn1t2f"
+		},
+		{
+			"layout": "agenda",
+			"title": "Today",
+			"items": [
+				"The problem",
+				"What we do",
+				"Traction",
+				"The market",
+				"The ask"
+			],
+			"id": "smv0zn1t2g"
+		},
+		{
+			"layout": "statement",
+			"kicker": "The problem",
+			"text": "Good coffee in this city is either ==expensive== or ==stale==.",
+			"subtitle": "Supermarket beans sit on shelves for months; cafés charge for the room.",
+			"id": "smv0zn1t2h"
+		},
+		{
+			"layout": "split",
+			"title": "Roasted Thursday, at your door Friday",
+			"text": "We roast in small batches every week and deliver by bike in Portland and by courier across Oregon.",
+			"bullets": [
+				"Beans never older than 7 days",
+				"Grind chosen for your machine",
+				"Pause or change any time"
+			],
+			"image": "images/cup.jpg",
+			"id": "smv0zn1t2i"
+		},
+		{
+			"layout": "cards",
+			"title": "Why people stay",
+			"cards": [
+				{
+					"icon": "leaf",
+					"title": "Fresh",
+					"text": "Roasted to order, dated on every bag."
+				},
+				{
+					"icon": "truck",
+					"title": "Easy",
+					"text": "Delivered on a day you pick, no minimum."
+				},
+				{
+					"icon": "heart",
+					"title": "Personal",
+					"text": "A tasting card and a note from the roaster."
+				}
+			],
+			"id": "smv0zn1t2j"
+		},
+		{
+			"layout": "stats",
+			"title": "Traction in 9 months",
+			"stats": [
+				{
+					"value": "1,240",
+					"label": "Subscribers",
+					"detail": "From 0 in January"
+				},
+				{
+					"value": "92%",
+					"label": "Stay after 3 months"
+				},
+				{
+					"value": "$38k",
+					"label": "Monthly revenue"
+				}
+			],
+			"id": "smv0zn1t3k"
+		},
+		{
+			"layout": "chart",
+			"title": "Revenue grows every month",
+			"chart": {
+				"type": "bar",
+				"labels": [
+					"Jan",
+					"Feb",
+					"Mar",
+					"Apr",
+					"May",
+					"Jun",
+					"Jul",
+					"Aug",
+					"Sep"
+				],
+				"series": [
+					{
+						"name": "Revenue",
+						"values": [2, 4, 7, 11, 15, 20, 26, 31, 38]
+					}
+				],
+				"unit": "$k"
+			},
+			"text": "Word of mouth and one café partnership doubled growth after April.",
+			"points": [
+				{
+					"text": "CAC $11, payback 3 weeks"
+				},
+				{
+					"text": "No paid ads until June"
+				}
+			],
+			"id": "smv0zn1t3l"
+		},
+		{
+			"layout": "process",
+			"title": "How a bag reaches you",
+			"steps": [
+				{
+					"title": "Order",
+					"text": "Pick beans and a day",
+					"icon": "shopping-bag"
+				},
+				{
+					"title": "Roast",
+					"text": "Thursday, small batch",
+					"icon": "flame"
+				},
+				{
+					"title": "Pack",
+					"text": "Dated and sealed",
+					"icon": "package"
+				},
+				{
+					"title": "Deliver",
+					"text": "Friday, by bike",
+					"icon": "bike"
+				}
+			],
+			"id": "smv0zn1t3m"
+		},
+		{
+			"layout": "timeline",
+			"title": "Where we are going",
+			"steps": [
+				{
+					"label": "Q4 2026",
+					"title": "Seattle",
+					"text": "Second roastery partner"
+				},
+				{
+					"label": "Q1 2027",
+					"title": "Offices",
+					"text": "Coffee for teams"
+				},
+				{
+					"label": "Q3 2027",
+					"title": "Region",
+					"text": "Tacoma and Boise"
+				}
+			],
+			"id": "smv0zn1t3n"
+		},
+		{
+			"layout": "compare",
+			"title": "Plans",
+			"columns": [
+				{
+					"title": "Taste",
+					"price": "$14",
+					"text": "per month",
+					"points": ["250 g every month", "Free delivery in Portland"]
+				},
+				{
+					"title": "Daily",
+					"price": "$29",
+					"text": "per month",
+					"points": [
+						"1 kg every month",
+						"Pick your roast",
+						"Priority delivery"
+					],
+					"highlight": true
+				},
+				{
+					"title": "Office",
+					"price": "$89",
+					"text": "per month",
+					"points": ["5 kg every month", "Grinder on loan"]
+				}
+			],
+			"id": "smv0zn1t3o"
+		},
+		{
+			"layout": "quote",
+			"quote": "The first coffee at home that tastes like the café I love. I don't buy anything else now.",
+			"author": "Jenna M.",
+			"role": "Subscriber since March",
+			"id": "smv0zn1t3p"
+		},
+		{
+			"layout": "table",
+			"title": "Us and the alternatives",
+			"head": ["", "Brew Lab", "Supermarket", "Café"],
+			"rows": [
+				["Freshness", "≤ 7 days", "3-12 months", "Fresh"],
+				["Price per cup", "$0.35", "$0.20", "$2.50"],
+				["At home", "Yes", "Yes", "No"]
+			],
+			"id": "smv0zn1t3q"
+		},
+		{
+			"layout": "team",
+			"title": "The team",
+			"people": [
+				{
+					"name": "Ana Peterson",
+					"role": "Founder, roaster"
+				},
+				{
+					"name": "Mark Jensen",
+					"role": "Operations"
+				},
+				{
+					"name": "Iris Kent",
+					"role": "Growth"
+				}
+			],
+			"id": "smv0zn1t3r"
+		},
+		{
+			"layout": "section",
+			"number": 4,
+			"title": "The ask",
+			"subtitle": "What we need and what it buys",
+			"id": "smv0zn1t3s"
+		},
+		{
+			"layout": "closing",
+			"title": "$400k to roast for the region",
+			"subtitle": "18 months of runway: a second roaster, Seattle, offices.",
+			"cta": "Let's talk",
+			"contact": "ana@brewlab.example · brewlab.example",
+			"id": "smv0zn1t3t"
+		}
+	],
+	"format": "deepbot.deck/v1",
+	"slug": "brew-lab-pitch",
+	"showNumbers": true
+}

@@ -1,0 +1,654 @@
+[
+ {
+  "id": "montserrat",
+  "family": "Montserrat",
+  "category": "geometric sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "montserrat-400.ttf",
+   "600": "montserrat-600.ttf",
+   "700": "montserrat-700.ttf",
+   "800": "montserrat-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "outfit",
+  "family": "Outfit",
+  "category": "geometric sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "outfit-400.ttf",
+   "600": "outfit-600.ttf",
+   "700": "outfit-700.ttf",
+   "800": "outfit-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "sora",
+  "family": "Sora",
+  "category": "geometric sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "sora-400.ttf",
+   "600": "sora-600.ttf",
+   "700": "sora-700.ttf",
+   "800": "sora-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "poppins",
+  "family": "Poppins",
+  "category": "geometric sans",
+  "weights": [
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "500": "poppins-500.ttf",
+   "600": "poppins-600.ttf",
+   "700": "poppins-700.ttf",
+   "800": "poppins-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "lexend",
+  "family": "Lexend",
+  "category": "geometric sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "lexend-400.ttf",
+   "600": "lexend-600.ttf",
+   "700": "lexend-700.ttf",
+   "800": "lexend-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "inter",
+  "family": "Inter",
+  "category": "grotesk",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "inter-400.ttf",
+   "600": "inter-600.ttf",
+   "700": "inter-700.ttf",
+   "800": "inter-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "space-grotesk",
+  "family": "Space Grotesk",
+  "category": "grotesk",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "files": {
+   "400": "space-grotesk-400.ttf",
+   "600": "space-grotesk-600.ttf",
+   "700": "space-grotesk-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "manrope",
+  "family": "Manrope",
+  "category": "grotesk",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "manrope-400.ttf",
+   "600": "manrope-600.ttf",
+   "700": "manrope-700.ttf",
+   "800": "manrope-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "bricolage",
+  "family": "Bricolage Grotesque",
+  "category": "grotesk",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "bricolage-400.ttf",
+   "600": "bricolage-600.ttf",
+   "700": "bricolage-700.ttf",
+   "800": "bricolage-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "rubik",
+  "family": "Rubik",
+  "category": "rounded sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "rubik-400.ttf",
+   "600": "rubik-600.ttf",
+   "700": "rubik-700.ttf",
+   "800": "rubik-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "nunito",
+  "family": "Nunito",
+  "category": "rounded sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "nunito-400.ttf",
+   "600": "nunito-600.ttf",
+   "700": "nunito-700.ttf",
+   "800": "nunito-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "quicksand",
+  "family": "Quicksand",
+  "category": "rounded sans",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "files": {
+   "400": "quicksand-400.ttf",
+   "600": "quicksand-600.ttf",
+   "700": "quicksand-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "raleway",
+  "family": "Raleway",
+  "category": "elegant sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "raleway-400.ttf",
+   "600": "raleway-600.ttf",
+   "700": "raleway-700.ttf",
+   "800": "raleway-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "josefin",
+  "family": "Josefin Sans",
+  "category": "elegant sans",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "files": {
+   "400": "josefin-400.ttf",
+   "600": "josefin-600.ttf",
+   "700": "josefin-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "syne",
+  "family": "Syne",
+  "category": "display sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "syne-400.ttf",
+   "600": "syne-600.ttf",
+   "700": "syne-700.ttf",
+   "800": "syne-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "unbounded",
+  "family": "Unbounded",
+  "category": "display sans",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "unbounded-400.ttf",
+   "600": "unbounded-600.ttf",
+   "700": "unbounded-700.ttf",
+   "800": "unbounded-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "bebas",
+  "family": "Bebas Neue",
+  "category": "condensed",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "bebas-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "anton",
+  "family": "Anton",
+  "category": "condensed",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "anton-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "archivo-black",
+  "family": "Archivo Black",
+  "category": "heavy sans",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "archivo-black-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "playfair",
+  "family": "Playfair Display",
+  "category": "serif",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "playfair-400.ttf",
+   "600": "playfair-600.ttf",
+   "700": "playfair-700.ttf",
+   "800": "playfair-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "fraunces",
+  "family": "Fraunces",
+  "category": "serif",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "fraunces-400.ttf",
+   "600": "fraunces-600.ttf",
+   "700": "fraunces-700.ttf",
+   "800": "fraunces-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "dm-serif",
+  "family": "DM Serif Display",
+  "category": "serif",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "dm-serif-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "cormorant",
+  "family": "Cormorant Garamond",
+  "category": "serif",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "files": {
+   "400": "cormorant-400.ttf",
+   "600": "cormorant-600.ttf",
+   "700": "cormorant-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "baskerville",
+  "family": "Libre Baskerville",
+  "category": "serif",
+  "weights": [
+   400,
+   700
+  ],
+  "files": {
+   "400": "baskerville-400.ttf",
+   "700": "baskerville-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "instrument-serif",
+  "family": "Instrument Serif",
+  "category": "serif",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "instrument-serif-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "abril",
+  "family": "Abril Fatface",
+  "category": "display serif",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "abril-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "cinzel",
+  "family": "Cinzel",
+  "category": "classic caps",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "cinzel-400.ttf",
+   "600": "cinzel-600.ttf",
+   "700": "cinzel-700.ttf",
+   "800": "cinzel-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "marcellus",
+  "family": "Marcellus",
+  "category": "classic caps",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "marcellus-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "roboto-slab",
+  "family": "Roboto Slab",
+  "category": "slab",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "roboto-slab-400.ttf",
+   "600": "roboto-slab-600.ttf",
+   "700": "roboto-slab-700.ttf",
+   "800": "roboto-slab-800.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "Apache-2.0"
+ },
+ {
+  "id": "pacifico",
+  "family": "Pacifico",
+  "category": "script",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "pacifico-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "great-vibes",
+  "family": "Great Vibes",
+  "category": "script",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "great-vibes-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "dancing",
+  "family": "Dancing Script",
+  "category": "script",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "files": {
+   "400": "dancing-400.ttf",
+   "600": "dancing-600.ttf",
+   "700": "dancing-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "lobster",
+  "family": "Lobster",
+  "category": "script",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "lobster-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "caveat",
+  "family": "Caveat",
+  "category": "handwritten",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "files": {
+   "400": "caveat-400.ttf",
+   "600": "caveat-600.ttf",
+   "700": "caveat-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": true,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "righteous",
+  "family": "Righteous",
+  "category": "display",
+  "weights": [
+   400
+  ],
+  "files": {
+   "400": "righteous-400.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "orbitron",
+  "family": "Orbitron",
+  "category": "tech",
+  "weights": [
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": {
+   "400": "orbitron-400.ttf",
+   "600": "orbitron-600.ttf",
+   "700": "orbitron-700.ttf",
+   "800": "orbitron-800.ttf"
+  },
+  "latinExt": false,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ },
+ {
+  "id": "space-mono",
+  "family": "Space Mono",
+  "category": "mono",
+  "weights": [
+   700
+  ],
+  "files": {
+   "700": "space-mono-700.ttf"
+  },
+  "latinExt": true,
+  "cyrillic": false,
+  "licence": "OFL-1.1"
+ }
+]
