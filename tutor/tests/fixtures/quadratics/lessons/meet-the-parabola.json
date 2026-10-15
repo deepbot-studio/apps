@@ -1,0 +1,190 @@
+{
+  "title": "Meet the parabola",
+  "minutes": 15,
+  "objectives": [
+    "Recognise a quadratic function",
+    "Say what $a$, $b$ and $c$ do to the graph",
+    "Find where the parabola crosses the y axis"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "text": "A **quadratic function** is any function you can write as\n$$y = ax^2 + bx + c$$\nwhere $a$, $b$ and $c$ are numbers and $a \\neq 0$. Its graph is a curve called a **parabola**: the path of a thrown ball, the shape of a satellite dish."
+    },
+    {
+      "type": "callout",
+      "kind": "definition",
+      "title": "Quadratic",
+      "text": "The highest power of $x$ is $2$. That *square* is what makes the curve bend."
+    },
+    { "type": "heading", "text": "Play with a, b and c" },
+    {
+      "type": "graph",
+      "functions": [{ "expr": "a*x^2 + b*x + c", "label": "y = ax² + bx + c" }],
+      "params": [
+        { "name": "a", "min": -3, "max": 3, "step": 0.1, "value": 1 },
+        { "name": "b", "min": -6, "max": 6, "step": 0.5, "value": 0 },
+        { "name": "c", "min": -6, "max": 6, "step": 0.5, "value": -2 }
+      ],
+      "x": [-6, 6],
+      "y": [-8, 8],
+      "caption": "Move the sliders. What does a negative $a$ do? What does $c$ change?"
+    },
+    {
+      "type": "compare",
+      "title": "The sign of a",
+      "columns": [
+        {
+          "title": "$a > 0$",
+          "points": [
+            "opens upward, like a cup",
+            "has a lowest point",
+            "bigger $a$: narrower"
+          ]
+        },
+        {
+          "title": "$a < 0$",
+          "points": [
+            "opens downward, like a hill",
+            "has a highest point",
+            "$a$ closer to 0: wider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "Worked example",
+      "problem": "Where does $y = 2x^2 - 3x + 5$ cross the y axis?",
+      "steps": [
+        { "text": "On the y axis, $x = 0$." },
+        {
+          "text": "Put $x = 0$ into the function:",
+          "math": "y = 2\\cdot 0^2 - 3\\cdot 0 + 5"
+        },
+        { "text": "Everything with $x$ disappears:", "math": "y = 5" }
+      ],
+      "answer": "It crosses at $(0, 5)$. The y-intercept is always $c$."
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "Which of these is a quadratic function?",
+          "options": [
+            "$y = 3x + 2$",
+            "$y = x^2 - 4$",
+            "$y = \\frac{1}{x}$",
+            "$y = 2^x$"
+          ],
+          "answer": 1,
+          "explanation": "Only $x^2 - 4$ has $x$ squared as its highest power.",
+          "hint": "Look for $x^2$."
+        },
+        {
+          "kind": "truefalse",
+          "prompt": "The parabola $y = -x^2 + 4$ opens upward.",
+          "answer": false,
+          "explanation": "$a = -1$ is negative, so it opens downward."
+        },
+        {
+          "kind": "number",
+          "prompt": "Where does $y = x^2 - 7x + 12$ cross the y axis? Give the y value.",
+          "answer": 12,
+          "hint": "Put $x = 0$.",
+          "explanation": "With $x = 0$ only $c = 12$ is left."
+        },
+        {
+          "kind": "multi",
+          "prompt": "Which parabolas open downward?",
+          "options": [
+            "$y = -2x^2$",
+            "$y = 0.5x^2 - 1$",
+            "$y = 3 - x^2$",
+            "$y = x^2 + x$"
+          ],
+          "answer": [0, 2],
+          "explanation": "The ones with a negative number in front of $x^2$."
+        },
+        {
+          "kind": "blank",
+          "prompt": "Fill in the gaps.",
+          "text": "In $y = ax^2 + bx + c$, the number [[c]] is where the curve crosses the y axis, and if [[a]] is negative the curve opens downward."
+        },
+        {
+          "kind": "order",
+          "prompt": "Order from narrowest to widest.",
+          "items": ["$y = 5x^2$", "$y = 2x^2$", "$y = x^2$", "$y = 0.3x^2$"],
+          "explanation": "The bigger $|a|$, the narrower."
+        },
+        {
+          "kind": "match",
+          "prompt": "Match each function with its y-intercept.",
+          "pairs": [
+            ["$y = x^2 + 3$", "3"],
+            ["$y = 2x^2 - x$", "0"],
+            ["$y = -x^2 + 4x - 1$", "-1"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise",
+      "difficulty": 2,
+      "problem": "For $f(x) = x^2 - 4x + 3$:",
+      "steps": [
+        {
+          "prompt": "What is $f(0)$?",
+          "kind": "number",
+          "answer": 3,
+          "hint": "Put 0 in place of $x$."
+        },
+        {
+          "prompt": "What is $f(2)$?",
+          "kind": "number",
+          "answer": -1,
+          "hint": "$2^2 - 4\\cdot2 + 3$",
+          "explain": "$4 - 8 + 3 = -1$"
+        },
+        {
+          "prompt": "Write $f(x)$ as a product of two brackets.",
+          "kind": "expr",
+          "answer": "(x-1)(x-3)",
+          "form": "factored",
+          "hint": "Two numbers that multiply to 3 and add to -4.",
+          "explain": "$(x-1)(x-3) = x^2 - 4x + 3$"
+        }
+      ],
+      "solution": "$f(0) = 3$, $f(2) = -1$ (the lowest point), and $f(x) = (x-1)(x-3)$, so the curve crosses the x axis at 1 and 3."
+    },
+    {
+      "type": "sim",
+      "sim": "projectile",
+      "params": { "speed": 18, "angle": 50 },
+      "caption": "A thrown ball flies along a parabola: its height is a quadratic function of time."
+    },
+    {
+      "type": "flashcards",
+      "cards": [
+        {
+          "front": "What makes a function quadratic?",
+          "back": "The highest power of $x$ is 2: $y = ax^2 + bx + c$, $a \\neq 0$."
+        },
+        {
+          "front": "Where does $y = ax^2 + bx + c$ cross the y axis?",
+          "back": "At $(0, c)$."
+        },
+        {
+          "front": "What does a negative $a$ do?",
+          "back": "The parabola opens downward."
+        }
+      ]
+    },
+    {
+      "type": "reflect",
+      "prompt": "In one or two sentences: how would you explain to a friend what $a$ does?"
+    }
+  ]
+}

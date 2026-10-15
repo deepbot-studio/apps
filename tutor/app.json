@@ -1,0 +1,63 @@
+{
+	"format": "deepbot.app/v1",
+	"id": "tutor",
+	"name": "Tutor",
+	"version": "1.2.0",
+	"tier": "free",
+	"vendor": "DeepBot",
+	"summary": "A personal tutor for children and adults: courses, lessons with graphs and simulations, exercises checked step by step, flashcards and progress.",
+	"description": "Plans a course for exactly one learner (age, level, goal, time), writes the lessons as it goes, and teaches them in a page made for learning: formulas, worked examples revealed step by step, interactive graphs with sliders, simulations (projectile, pendulum, spring, waves, circuits, orbits, population, supply and demand, dice, fractions), timelines and comparisons, nine kinds of questions checked on the spot with hints, exercises solved one step at a time, flashcards on a spaced-repetition schedule, stars, streaks and a progress page. A playful look for children, a calm one for adults. The learner can ask the tutor about any lesson at any time.",
+	"icon": "ui/icon.svg",
+	"permissions": {
+		"files": ["tutor"],
+		"ask": true
+	},
+	"skill": "skill/SKILL.md",
+	"cards": [
+		{
+			"name": "showCoursePlan",
+			"title": "Course plan",
+			"entry": "ui/card-plan.html",
+			"height": 420,
+			"description": "Show a course plan in the chat after writing tutor/<slug>/course.json: the units and lessons, with Start learning (opens it in Tutor) and Change something. Pass `course` (the slug).",
+			"confirmation": "The course plan is on screen.",
+			"parameters": {
+				"type": "object",
+				"properties": {
+					"course": {
+						"type": "string",
+						"description": "The course slug (folder under tutor/)"
+					},
+					"note": { "type": "string", "description": "One line from you" }
+				},
+				"required": ["course"]
+			}
+		},
+		{
+			"name": "showLesson",
+			"title": "Lesson or practice",
+			"entry": "ui/card-lesson.html",
+			"height": 520,
+			"description": "Teach in the chat: a lesson from a course (`course` + `lesson`), or a short explanation with practice written straight into `blocks` (the same block format as lesson files: text with $maths$, math, callout, graph, sim, steps, quiz, exercise, flashcards, timeline, table, keyterms, compare). Answers are checked on the spot; a course lesson's answers count toward progress.",
+			"confirmation": "The lesson is on screen.",
+			"parameters": {
+				"type": "object",
+				"properties": {
+					"course": { "type": "string" },
+					"lesson": { "type": "string" },
+					"title": { "type": "string" },
+					"audience": { "type": "string", "enum": ["kids", "teens", "adults"] },
+					"blocks": { "type": "array", "items": { "type": "object" } },
+					"note": { "type": "string" }
+				}
+			}
+		}
+	],
+	"pages": [
+		{
+			"id": "learn",
+			"title": "Tutor",
+			"entry": "ui/learn.html"
+		}
+	]
+}

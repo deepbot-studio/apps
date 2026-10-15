@@ -1,0 +1,31 @@
+{
+  "title": "Vertex form",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Any parabola can be written as $y = a(x-p)^2 + q$. Its turning point, the **vertex**, is $(p, q)$."
+    },
+    {
+      "type": "graph",
+      "functions": [{ "expr": "a*(x-p)^2 + q" }],
+      "params": [
+        { "name": "a", "min": -2, "max": 2, "step": 0.1, "value": 1 },
+        { "name": "p", "min": -4, "max": 4, "step": 0.5, "value": 1 },
+        { "name": "q", "min": -4, "max": 4, "step": 0.5, "value": -2 }
+      ],
+      "x": [-6, 6],
+      "y": [-6, 6]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "kind": "choice",
+          "prompt": "The vertex of $y = (x-2)^2 + 5$ is",
+          "options": ["$(2, 5)$", "$(-2, 5)$", "$(5, 2)$"],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

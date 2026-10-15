@@ -1,0 +1,102 @@
+/* Cards in the chat. */
+body {
+  height: auto;
+  background: var(--card);
+}
+.pad {
+  padding: 14px 18px;
+}
+.chead {
+  position: relative;
+  height: 128px;
+  overflow: hidden;
+  color: #fff;
+}
+.chead .cv,
+.chead .cv svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.chead .cin {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 12px 18px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+  border: 0;
+  border-radius: 0;
+}
+.chead .tag {
+  font: 700 10.5px var(--read);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.chead b {
+  display: block;
+  font: 700 22px / 1.15 var(--head);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+.kids .chead b {
+  font-weight: 800;
+}
+.note {
+  color: var(--muted-foreground);
+  margin: 0 0 10px;
+}
+.units {
+  display: grid;
+  gap: 10px;
+}
+.cu {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+.cu .h {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+.cu .h span {
+  font: 700 11px var(--read);
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.cu .h b {
+  font: 700 15px var(--head);
+}
+.cu ol {
+  margin: 6px 0 0;
+  padding-left: 20px;
+  font-size: 13.5px;
+}
+.cu li {
+  margin: 2px 0;
+}
+.cu li .m {
+  color: var(--muted-foreground);
+  font-size: 12px;
+}
+.acts {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.ltitle {
+  font: 700 22px / 1.2 var(--head);
+  margin: 0 0 4px;
+}
+.lk {
+  font: 700 11px var(--read);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.lesson .blk:last-child {
+  margin-bottom: 6px;
+}

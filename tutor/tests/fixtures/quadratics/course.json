@@ -1,0 +1,41 @@
+{
+  "format": "deepbot.tutor/v1",
+  "title": "Quadratic functions, from zero",
+  "subject": "Maths",
+  "level": "High school",
+  "audience": "teens",
+  "language": "en",
+  "goal": "Read, draw and solve quadratics with confidence before the exam in three weeks.",
+  "units": [
+    {
+      "id": "shape",
+      "title": "The parabola",
+      "summary": "What y = ax² + bx + c looks like and why.",
+      "lessons": [
+        {
+          "id": "meet-the-parabola",
+          "title": "Meet the parabola",
+          "minutes": 15,
+          "summary": "How a, b and c move the curve"
+        },
+        { "id": "vertex-form", "title": "Vertex form", "minutes": 15 }
+      ]
+    },
+    {
+      "id": "solve",
+      "title": "Solving",
+      "lessons": [
+        { "id": "factoring", "title": "Solving by factoring", "minutes": 20 },
+        { "id": "formula", "title": "The quadratic formula", "minutes": 20 },
+        { "id": "discriminant", "title": "How many solutions?", "minutes": 10 }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "Using it",
+      "lessons": [
+        { "id": "projectiles", "title": "Throwing things", "minutes": 20 }
+      ]
+    }
+  ]
+}

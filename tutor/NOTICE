@@ -1,0 +1,9 @@
+Tutor, a DeepBot app.
+
+Bundled third-party software and fonts:
+
+- KaTeX 0.16.11 and its mhchem extension (ui/vendor/katex), MIT licence, ui/vendor/katex/LICENSE.txt.
+  Only the WOFF2 fonts are bundled.
+- Lexend (ui/fonts/lexend-*), SIL Open Font License 1.1, ui/fonts/licences/lexend.txt.
+- Fraunces (ui/fonts/fraunces-*), SIL Open Font License 1.1, ui/fonts/licences/fraunces.txt.
+- Nunito (ui/fonts/nunito-*), SIL Open Font License 1.1, ui/fonts/licences/nunito.txt.
