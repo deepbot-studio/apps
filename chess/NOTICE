@@ -1,0 +1,15 @@
+Chess, a DeepBot app.
+
+Everything that plays and teaches chess here was written for this app: the rules, the engine and its
+evaluation, the opening book, the 3D pieces (built in code), the flat pieces, the sounds (made with
+Web Audio) and the lessons.
+
+Bundled third-party data and fonts:
+
+- Puzzles (ui/data/puzzles.json): a selection of 4,862 puzzles from the Lichess puzzle database
+  (https://database.lichess.org), released under Creative Commons CC0 1.0 (public domain). Each
+  puzzle keeps its Lichess id. Thank you, Lichess and its players.
+- Lexend (ui/fonts/lexend-*), SIL Open Font License 1.1, ui/fonts/licences/lexend.txt.
+- Fraunces (ui/fonts/fraunces-*), SIL Open Font License 1.1, ui/fonts/licences/fraunces.txt.
+
+Used from DeepBot, not bundled: three.js (MIT), which DeepBot ships at /vendor/three.

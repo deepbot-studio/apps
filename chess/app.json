@@ -1,0 +1,88 @@
+{
+	"format": "deepbot.app/v1",
+	"id": "chess",
+	"name": "Chess",
+	"version": "1.0.0",
+	"tier": "free",
+	"vendor": "DeepBot",
+	"summary": "Play chess against your Bot on a 3D board, learn the game from the first move to advanced ideas, solve puzzles and review your games.",
+	"description": "A complete chess app with your Bot at the table. Play on a wooden 3D board (or a flat one) against your Bot at five levels, from someone who just learned the moves to a good club player, with a clock, hints, takebacks and sound; or let the Bot choose its own moves with your AI model. Learn with six courses of interactive lessons (the rules, tactics, checkmate patterns, openings, endgames and strategy), train with thousands of rated puzzles by theme, and review every game with the engine: accuracy, blunders, the better move, and your Bot explaining it beside the board.",
+	"icon": "ui/icon.svg",
+	"permissions": {
+		"files": ["chess"],
+		"ask": true
+	},
+	"skill": "skill/SKILL.md",
+	"cards": [
+		{
+			"name": "showChessBoard",
+			"title": "Chess board",
+			"entry": "ui/board.html",
+			"height": 560,
+			"description": "Show a chess position or a whole game in the chat on a board: `fen` for a position, or `pgn` for a game the person can step through (`ply` picks the position to start on). Add `arrows` (UCI like \"e2e4\") and `highlight` (squares) to point things out, a `title` and a one-line `note`. Buttons let the person play on from the position right in the chat, or open it in Chess. With `white` and `black` (Bot names, or the engine at a level) two players play a whole game on the card while the person watches: \"let Assistant play Writer\".",
+			"confirmation": "The board is on screen.",
+			"parameters": {
+				"type": "object",
+				"properties": {
+					"fen": {
+						"type": "string",
+						"description": "A position in FEN"
+					},
+					"pgn": {
+						"type": "string",
+						"description": "A whole game in PGN"
+					},
+					"ply": {
+						"type": "integer",
+						"description": "With pgn: which half-move to show first (0 = the start, default: the end)"
+					},
+					"orientation": {
+						"type": "string",
+						"enum": ["white", "black"]
+					},
+					"arrows": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"description": "Moves to draw as arrows, in UCI (e2e4)"
+					},
+					"highlight": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"description": "Squares to mark (e4)"
+					},
+					"title": {
+						"type": "string"
+					},
+					"note": {
+						"type": "string",
+						"description": "One line under the board"
+					},
+					"white": {
+						"type": "string",
+						"description": "With black: two players play a game on the card while the person watches. A Bot's name (it picks its moves with the person's model), or \"engine\" / \"engine:beginner\" ... \"engine:expert\""
+					},
+					"black": {
+						"type": "string",
+						"description": "The other player, the same way as white"
+					},
+					"speed": {
+						"type": "string",
+						"enum": ["slow", "normal", "fast"],
+						"description": "How fast a watched game moves"
+					}
+				}
+			}
+		}
+	],
+	"pages": [
+		{
+			"id": "play",
+			"title": "Chess",
+			"entry": "ui/chess.html"
+		}
+	]
+}
